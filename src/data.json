@@ -1,0 +1,640 @@
+{
+  "medicinalData": [
+    {
+      "diseaseName": "Common Cold",
+      "symptoms": ["Runny nose", "Sneezing", "Coughing", "Sore throat"],
+      "causes": ["Viral infection"],
+      "recommendedMedicine": ["Acetaminophen", "Ibuprofen", "Decongestants"]
+    },
+    {
+      "diseaseName": "Influenza (Flu)",
+      "symptoms": ["Fever", "Chills", "Muscle aches", "Fatigue"],
+      "causes": ["Influenza virus"],
+      "recommendedMedicine": ["Antiviral medications", "Pain relievers", "Antipyretics"]
+    },
+    {
+      "diseaseName": "Allergies",
+      "symptoms": ["Itchy eyes", "Runny nose", "Sneezing", "Rashes"],
+      "causes": ["Allergens"],
+      "recommendedMedicine": ["Antihistamines", "Decongestants", "Corticosteroids"]
+    },
+    {
+      "diseaseName": "Migraine",
+      "symptoms": ["Severe headache", "Nausea", "Sensitivity to light"],
+      "causes": ["Genetic factors", "Environmental factors"],
+      "recommendedMedicine": ["Triptans", "Analgesics", "Anti-nausea medications"]
+    },
+    {
+      "diseaseName": "Hypertension (High Blood Pressure)",
+      "symptoms": ["Headache", "Fatigue", "Dizziness"],
+      "causes": ["Genetic factors", "Unhealthy lifestyle"],
+      "recommendedMedicine": ["Diuretics", "Beta-blockers", "ACE inhibitors"]
+    },
+    {
+      "diseaseName": "Type 2 Diabetes",
+      "symptoms": ["Increased thirst", "Frequent urination", "Fatigue"],
+      "causes": ["Genetics", "Obesity", "Insulin resistance"],
+      "recommendedMedicine": ["Metformin", "Sulfonylureas", "Insulin"]
+    },
+    {
+      "diseaseName": "Asthma",
+      "symptoms": ["Shortness of breath", "Coughing", "Wheezing"],
+      "causes": ["Genetic factors", "Environmental factors"],
+      "recommendedMedicine": ["Bronchodilators", "Inhaled corticosteroids", "Leukotriene modifiers"]
+    },
+    {
+      "diseaseName": "Arthritis",
+      "symptoms": ["Joint pain", "Swelling", "Stiffness"],
+      "causes": ["Age", "Genetic factors", "Autoimmune disorders"],
+      "recommendedMedicine": ["NSAIDs", "DMARDs"]
+    },
+    {
+      "diseaseName": "Depression",
+      "symptoms": ["Persistent sadness", "Loss of interest", "Fatigue"],
+      "causes": ["Genetics", "Chemical imbalances", "Trauma"],
+      "recommendedMedicine": ["Antidepressants", "Psychotherapy"]
+    },
+    {
+      "diseaseName": "Gastroenteritis",
+      "symptoms": ["Diarrhea", "Vomiting", "Abdominal cramps"],
+      "causes": ["Viral or bacterial infection"],
+      "recommendedMedicine": ["Antibiotics", "Anti-diarrheal medications", "Fluid replacement"]
+    },
+    {
+      "diseaseName": "Osteoporosis",
+      "symptoms": ["Bone pain", "Fractures", "Loss of height"],
+      "causes": ["Age", "Hormonal changes", "Nutritional deficiencies"],
+      "recommendedMedicine": ["Calcium supplements", "Vitamin D", "Bisphosphonates"]
+    },
+    {
+      "diseaseName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing"],
+      "causes": ["Smoking", "Environmental exposure"],
+      "recommendedMedicine": ["Bronchodilators", "Inhaled corticosteroids", "Oxygen therapy"]
+    },
+    {
+      "diseaseName": "Rheumatoid Arthritis",
+      "symptoms": ["Joint pain", "Morning stiffness", "Swelling"],
+      "causes": ["Autoimmune factors", "Genetic predisposition"],
+      "recommendedMedicine": ["DMARDs", "NSAIDs", "Corticosteroids"]
+    },
+    {
+      "diseaseName": "Alzheimer's Disease",
+      "symptoms": ["Memory loss", "Confusion", "Difficulty concentrating"],
+      "causes": ["Genetic factors", "Age", "Neurological changes"],
+      "recommendedMedicine": ["Cholinesterase inhibitors", "Memantine"]
+    },
+    {
+      "diseaseName": "Eczema",
+      "symptoms": ["Itchy skin", "Redness", "Dryness"],
+      "causes": ["Genetic factors", "Environmental triggers"],
+      "recommendedMedicine": ["Topical corticosteroids", "Antihistamines", "Emollients"]
+    },
+    {
+      "diseaseName": "Celiac Disease",
+      "symptoms": ["Abdominal pain", "Diarrhea", "Weight loss"],
+      "causes": ["Gluten intolerance", "Genetic factors"],
+      "recommendedMedicine": ["Gluten-free diet", "Nutritional supplements"]
+    },
+    {
+      "diseaseName": "Parkinson's Disease",
+      "symptoms": ["Tremors", "Bradykinesia", "Stiffness"],
+      "causes": ["Neurological changes", "Genetic factors"],
+      "recommendedMedicine": ["Levodopa", "Dopamine agonists", "MAO-B inhibitors"]
+    },
+    {
+      "diseaseName": "Psoriasis",
+      "symptoms": ["Red patches", "Scaling", "Itching"],
+      "causes": ["Immune system dysfunction", "Genetic factors"],
+      "recommendedMedicine": ["Topical corticosteroids", "Immunosuppressants", "Biologics"]
+    },
+    {
+      "diseaseName": "Endometriosis",
+      "symptoms": ["Pelvic pain", "Painful periods", "Infertility"],
+      "causes": ["Abnormal tissue growth", "Genetic factors"],
+      "recommendedMedicine": ["Pain relievers", "Hormonal therapy", "Surgery"]
+    },
+    {
+      "diseaseName": "Crohn's Disease",
+      "symptoms": ["Abdominal pain", "Diarrhea", "Fatigue"],
+      "causes": ["Immune system dysfunction", "Genetic factors"],
+      "recommendedMedicine": ["Anti-inflammatory drugs", "Immunosuppressants", "Biologics"]
+    },
+    {
+      "diseaseName": "Multiple Sclerosis",
+      "symptoms": ["Fatigue", "Numbness", "Difficulty walking"],
+      "causes": ["Autoimmune factors", "Genetic factors"],
+      "recommendedMedicine": ["Disease-modifying therapies", "Corticosteroids", "Symptomatic treatments"]
+    },
+    {
+      "diseaseName": "Pneumonia",
+      "symptoms": ["Fever", "Chest pain", "Shortness of breath"],
+      "causes": ["Bacterial or viral infection"],
+      "recommendedMedicine": ["Antibiotics", "Fever reducers", "Cough medicine"]
+    },
+    {
+      "diseaseName": "Hepatitis",
+      "symptoms": ["Jaundice", "Abdominal pain", "Fatigue"],
+      "causes": ["Viral infection", "Alcohol abuse"],
+      "recommendedMedicine": ["Antiviral medications", "Liver support supplements"]
+    },
+    {
+      "diseaseName": "Ovarian Cancer",
+      "symptoms": ["Abdominal bloating", "Pelvic pain", "Changes in bowel habits"],
+      "causes": ["Genetic factors", "Age", "Hormonal factors"],
+      "recommendedMedicine": ["Chemotherapy", "Surgery", "Targeted therapy"]
+    },
+    {
+      "diseaseName": "Glaucoma",
+      "symptoms": ["Blurred vision", "Eye pain", "Headache"],
+      "causes": ["Increased intraocular pressure", "Age"],
+      "recommendedMedicine": ["Eye drops", "Oral medications", "Laser therapy"]
+    },
+    {
+      "diseaseName": "Thyroid Disorders",
+      "symptoms": ["Fatigue", "Weight changes", "Irregular heartbeat"],
+      "causes": ["Hormonal imbalances", "Autoimmune disorders"],
+      "recommendedMedicine": ["Thyroid hormone replacement", "Antithyroid medications"]
+    },
+    {
+      "diseaseName": "Pancreatitis",
+      "symptoms": ["Abdominal pain", "Nausea", "Vomiting"],
+      "causes": ["Gallstones", "Alcohol consumption"],
+      "recommendedMedicine": ["Pain relievers", "Pancreatic enzyme supplements"]
+    },
+    {
+      "diseaseName": "Lupus",
+      "symptoms": ["Joint pain", "Skin rashes", "Fatigue"],
+      "causes": ["Autoimmune factors", "Genetic predisposition"],
+      "recommendedMedicine": ["Anti-inflammatory drugs", "Immunosuppressants"]
+    },
+    {
+      "diseaseName": "Prostate Cancer",
+      "symptoms": ["Frequent urination", "Difficulty urinating", "Blood in urine"],
+      "causes": ["Age", "Genetic factors"],
+      "recommendedMedicine": ["Surgery", "Radiation therapy", "Hormone therapy"]
+    },
+    {
+      "diseaseName": "Anemia",
+      "symptoms": ["Fatigue", "Weakness", "Pale skin"],
+      "causes": ["Iron deficiency", "Vitamin B12 deficiency"],
+      "recommendedMedicine": ["Iron supplements", "Vitamin B12 injections"]
+    },
+    {
+      "diseaseName": "Sleep Apnea",
+      "symptoms": ["Loud snoring", "Gasping for air during sleep", "Daytime sleepiness"],
+      "causes": ["Obesity", "Airway obstruction"],
+      "recommendedMedicine": ["Continuous Positive Airway Pressure (CPAP)", "Oral appliances"]
+    },
+    {
+      "diseaseName": "Rheumatoid Arthritis",
+      "symptoms": ["Joint pain", "Morning stiffness", "Swelling"],
+      "causes": ["Autoimmune factors", "Genetic predisposition"],
+      "recommendedMedicine": ["DMARDs", "NSAIDs", "Corticosteroids"]
+    },
+    {
+      "diseaseName": "Hepatitis B",
+      "symptoms": ["Jaundice", "Abdominal pain", "Fatigue"],
+      "causes": ["Viral infection"],
+      "recommendedMedicine": ["Antiviral medications", "Liver support supplements"]
+    },
+    {
+      "diseaseName": "Osteoporosis",
+      "symptoms": ["Bone pain", "Fractures", "Loss of height"],
+      "causes": ["Age", "Hormonal changes", "Nutritional deficiencies"],
+      "recommendedMedicine": ["Calcium supplements", "Vitamin D", "Bisphosphonates"]
+    },
+    {
+      "diseaseName": "Glaucoma",
+      "symptoms": ["Blurred vision", "Eye pain", "Headache"],
+      "causes": ["Increased intraocular pressure", "Age"],
+      "recommendedMedicine": ["Eye drops", "Oral medications", "Laser therapy"]
+    },
+    {
+      "diseaseName": "Thyroid Disorders",
+      "symptoms": ["Fatigue", "Weight changes", "Irregular heartbeat"],
+      "causes": ["Hormonal imbalances", "Autoimmune disorders"],
+      "recommendedMedicine": ["Thyroid hormone replacement", "Antithyroid medications"]
+    },
+    {
+      "diseaseName": "Celiac Disease",
+      "symptoms": ["Abdominal pain", "Diarrhea", "Weight loss"],
+      "causes": ["Gluten intolerance", "Genetic factors"],
+      "recommendedMedicine": ["Gluten-free diet", "Nutritional supplements"]
+    },
+    {
+      "diseaseName": "Migraine",
+      "symptoms": ["Severe headache", "Nausea", "Sensitivity to light"],
+      "causes": ["Genetic factors", "Environmental factors"],
+      "recommendedMedicine": ["Triptans", "Analgesics", "Anti-nausea medications"]
+    },
+    {
+      "diseaseName": "Prostate Cancer",
+      "symptoms": ["Frequent urination", "Difficulty urinating", "Blood in urine"],
+      "causes": ["Age", "Genetic factors"],
+      "recommendedMedicine": ["Surgery", "Radiation therapy", "Hormone therapy"]
+    },
+    {
+      "diseaseName": "Anemia",
+      "symptoms": ["Fatigue", "Weakness", "Pale skin"],
+      "causes": ["Iron deficiency", "Vitamin B12 deficiency"],
+      "recommendedMedicine": ["Iron supplements", "Vitamin B12 injections"]
+    },
+    {
+      "diseaseName": "Sleep Apnea",
+      "symptoms": ["Loud snoring", "Gasping for air during sleep", "Daytime sleepiness"],
+      "causes": ["Obesity", "Airway obstruction"],
+      "recommendedMedicine": ["Continuous Positive Airway Pressure (CPAP)", "Oral appliances"]
+    },
+    {
+      "diseaseName": "Osteoarthritis",
+      "symptoms": ["Joint pain", "Stiffness", "Swelling"],
+      "causes": ["Age", "Joint injury", "Obesity"],
+      "recommendedMedicine": ["Pain relievers", "Nonsteroidal anti-inflammatory drugs (NSAIDs)", "Corticosteroid injections"]
+    },
+    {
+      "diseaseName": "Hepatitis C",
+      "symptoms": ["Fatigue", "Jaundice", "Abdominal pain"],
+      "causes": ["Viral infection"],
+      "recommendedMedicine": ["Antiviral medications", "Liver support supplements"]
+    },
+    {
+      "diseaseName": "COPD (Chronic Obstructive Pulmonary Disease)",
+      "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing"],
+      "causes": ["Smoking", "Environmental exposure"],
+      "recommendedMedicine": ["Bronchodilators", "Inhaled corticosteroids", "Oxygen therapy"]
+    },
+    {
+      "diseaseName": "Epilepsy",
+      "symptoms": ["Seizures", "Loss of consciousness", "Confusion"],
+      "causes": ["Genetic factors", "Brain injury", "Infections"],
+      "recommendedMedicine": ["Antiepileptic drugs", "Surgery", "Vagus nerve stimulation"]
+    },
+    {
+      "diseaseName": "Hypothyroidism",
+      "symptoms": ["Fatigue", "Weight gain", "Cold sensitivity"],
+      "causes": ["Autoimmune disorders", "Thyroid surgery", "Radiation therapy"],
+      "recommendedMedicine": ["Levothyroxine", "Liothyronine"]
+    },
+    {
+      "diseaseName": "Gout",
+      "symptoms": ["Joint pain", "Swelling", "Redness"],
+      "causes": ["High uric acid levels", "Genetics", "Dietary factors"],
+      "recommendedMedicine": ["Nonsteroidal anti-inflammatory drugs (NSAIDs)", "Colchicine", "Corticosteroids"]
+    },
+    {
+      "diseaseName": "Ulcerative Colitis",
+      "symptoms": ["Abdominal pain", "Diarrhea", "Rectal bleeding"],
+      "causes": ["Autoimmune factors", "Genetic predisposition", "Environmental factors"],
+      "recommendedMedicine": ["Anti-inflammatory drugs", "Immunosuppressants", "Biologics"]
+    },
+    {
+      "diseaseName": "Mental Health Disorders",
+      "symptoms": ["Mood swings", "Changes in behavior", "Difficulty concentrating"],
+      "causes": ["Genetics", "Trauma", "Chemical imbalances"],
+      "recommendedMedicine": ["Antidepressants", "Antipsychotics", "Psychotherapy"]
+    },
+    {
+      "diseaseName": "Polycystic Ovary Syndrome (PCOS)",
+      "symptoms": ["Irregular periods", "Weight gain", "Excess hair growth"],
+      "causes": ["Hormonal imbalances", "Genetic factors"],
+      "recommendedMedicine": ["Birth control pills", "Metformin"]
+    },
+    {
+      "diseaseName": "Endometrial Cancer",
+      "symptoms": ["Abnormal vaginal bleeding", "Pelvic pain", "Weight loss"],
+      "causes": ["Age", "Hormonal factors", "Genetic predisposition"],
+      "recommendedMedicine": ["Surgery", "Radiation therapy", "Chemotherapy"]
+    },
+    {
+      "diseaseName": "Fibromyalgia",
+      "symptoms": ["Widespread pain", "Fatigue", "Sleep disturbances"],
+      "causes": ["Unknown", "Genetic factors", "Infections"],
+      "recommendedMedicine": ["Pain relievers", "Antidepressants", "Physical therapy"]
+    },
+    {
+      "diseaseName": "HIV/AIDS",
+      "symptoms": ["Fatigue", "Fever", "Weight loss"],
+      "causes": ["HIV infection"],
+      "recommendedMedicine": ["Antiretroviral therapy (ART)"]
+    },
+    {
+      "diseaseName": "Cataracts",
+      "symptoms": ["Blurred vision", "Sensitivity to light", "Faded colors"],
+      "causes": ["Aging", "Genetic factors", "UV exposure"],
+      "recommendedMedicine": ["Cataract surgery"]
+    },
+    {
+      "diseaseName": "Lyme Disease",
+      "symptoms": ["Rash", "Fever", "Joint pain"],
+      "causes": ["Bacterial infection (Borrelia burgdorferi)"],
+      "recommendedMedicine": ["Antibiotics", "Pain relievers", "Anti-inflammatory drugs"]
+    },
+    {
+      "diseaseName": "Hypertrophic Cardiomyopathy",
+      "symptoms": ["Shortness of breath", "Chest pain", "Fatigue"],
+      "causes": ["Genetic mutations"],
+      "recommendedMedicine": ["Beta-blockers", "Calcium channel blockers", "Surgery"]
+    },
+    {
+      "diseaseName": "Systemic Lupus Erythematosus (SLE)",
+      "symptoms": ["Joint pain", "Skin rashes", "Fatigue"],
+      "causes": ["Autoimmune factors", "Genetic predisposition"],
+      "recommendedMedicine": ["Anti-inflammatory drugs", "Immunosuppressants"]
+    },
+    {
+      "diseaseName": "Interstitial Cystitis",
+      "symptoms": ["Pelvic pain", "Frequent urination", "Bladder discomfort"],
+      "causes": ["Unknown", "Genetic factors", "Infections"],
+      "recommendedMedicine": ["Pain relievers", "Bladder instillation", "Physical therapy"]
+    },
+    {
+      "diseaseName": "Myasthenia Gravis",
+      "symptoms": ["Muscle weakness", "Fatigue", "Difficulty swallowing"],
+      "causes": ["Autoimmune factors", "Thymus gland abnormalities"],
+      "recommendedMedicine": ["Cholinesterase inhibitors", "Immunosuppressants", "Thymectomy"]
+    },
+    {
+      "diseaseName": "Cystic Fibrosis",
+      "symptoms": ["Persistent cough", "Breathing difficulties", "Frequent lung infections"],
+      "causes": ["Genetic mutations"],
+      "recommendedMedicine": ["Bronchodilators", "Airway clearance techniques", "Antibiotics"]
+    },
+    {
+      "diseaseName": "Chronic Kidney Disease",
+      "symptoms": ["Fatigue", "Swelling", "Decreased urine output"],
+      "causes": ["Diabetes", "Hypertension", "Genetic factors"],
+      "recommendedMedicine": ["ACE inhibitors", "ARBs", "Dialysis"]
+    },
+    {
+      "diseaseName": "Pulmonary Embolism",
+      "symptoms": ["Shortness of breath", "Chest pain", "Coughing up blood"],
+      "causes": ["Blood clot in the lungs"],
+      "recommendedMedicine": ["Anticoagulants", "Thrombolytics", "Supportive care"]
+    },
+    {
+      "diseaseName": "Chronic Hepatitis B",
+      "symptoms": ["Fatigue", "Jaundice", "Abdominal pain"],
+      "causes": ["Persistent Hepatitis B infection"],
+      "recommendedMedicine": ["Antiviral medications", "Liver support supplements"]
+    },
+    {
+      "diseaseName": "Amyotrophic Lateral Sclerosis (ALS)",
+      "symptoms": ["Muscle weakness", "Difficulty speaking", "Difficulty swallowing"],
+      "causes": ["Unknown", "Genetic factors"],
+      "recommendedMedicine": ["Riluzole", "Symptomatic treatments", "Supportive care"]
+    },
+    {
+      "diseaseName": "Sjögren's Syndrome",
+      "symptoms": ["Dry eyes", "Dry mouth", "Joint pain"],
+      "causes": ["Autoimmune factors"],
+      "recommendedMedicine": ["Artificial tears", "Saliva substitutes", "Immunosuppressants"]
+    },
+    {
+      "diseaseName": "Obstructive Sleep Apnea",
+      "symptoms": ["Loud snoring", "Gasping for air during sleep", "Daytime sleepiness"],
+      "causes": ["Obesity", "Airway obstruction"],
+      "recommendedMedicine": ["Continuous Positive Airway Pressure (CPAP)", "Oral appliances"]
+    },
+    {
+      "diseaseName": "Headache",
+      "symptoms": ["Throbbing pain", "Sensitivity to light", "Nausea"],
+      "causes": ["Stress", "Dehydration"],
+      "recommendedMedicine": ["Acetaminophen", "Ibuprofen", "Hydration"]
+    },
+    {
+      "diseaseName": "Stomach Flu",
+      "symptoms": ["Vomiting", "Diarrhea", "Abdominal cramps"],
+      "causes": ["Viral infection"],
+      "recommendedMedicine": ["Antiemetics", "Fluid replacement"]
+    },
+    {
+      "diseaseName": "Sprained Ankle",
+      "symptoms": ["Swelling", "Bruising", "Pain"],
+      "causes": ["Injury"],
+      "recommendedMedicine": ["Pain relievers", "RICE therapy"]
+    },
+    {
+      "diseaseName": "Conjunctivitis (Pink Eye)",
+      "symptoms": ["Redness", "Itching", "Tearing"],
+      "causes": ["Bacterial or viral infection", "Allergies"],
+      "recommendedMedicine": ["Antibiotic eye drops", "Antihistamines"]
+    },
+    {
+      "diseaseName": "Sunburn",
+      "symptoms": ["Red and painful skin", "Blisters", "Swelling"],
+      "causes": ["Excessive sun exposure"],
+      "recommendedMedicine": ["Aloe vera gel", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Ear Infection",
+      "symptoms": ["Ear pain", "Fluid drainage", "Hearing loss"],
+      "causes": ["Bacterial or viral infection"],
+      "recommendedMedicine": ["Antibiotics", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Urinary Tract Infection (UTI)",
+      "symptoms": ["Frequent urination", "Burning sensation", "Cloudy urine"],
+      "causes": ["Bacterial infection"],
+      "recommendedMedicine": ["Antibiotics", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Acid Reflux",
+      "symptoms": ["Heartburn", "Regurgitation", "Chest pain"],
+      "causes": ["Stomach acid flowing back into the esophagus"],
+      "recommendedMedicine": ["Antacids", "H2 blockers", "Proton pump inhibitors"]
+    },
+    {
+      "diseaseName": "Hives",
+      "symptoms": ["Itchy welts", "Swelling", "Redness"],
+      "causes": ["Allergic reactions", "Stress"],
+      "recommendedMedicine": ["Antihistamines", "Corticosteroids"]
+    },
+    {
+      "diseaseName": "Tennis Elbow",
+      "symptoms": ["Pain on the outer elbow", "Weak grip", "Stiffness"],
+      "causes": ["Overuse of forearm muscles"],
+      "recommendedMedicine": ["Pain relievers", "Brace"]
+    },
+    {
+      "diseaseName": "Mild Dehydration",
+      "symptoms": ["Thirst", "Dark yellow urine", "Dry mouth"],
+      "causes": ["Inadequate fluid intake"],
+      "recommendedMedicine": ["Rehydration with water and electrolytes"]
+    },
+    {
+      "diseaseName": "Carpal Tunnel Syndrome",
+      "symptoms": ["Hand numbness", "Tingling", "Weakness"],
+      "causes": ["Compression of the median nerve"],
+      "recommendedMedicine": ["Wrist splint", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Plantar Fasciitis",
+      "symptoms": ["Heel pain", "Foot arch pain", "Stiffness"],
+      "causes": ["Inflammation of the plantar fascia"],
+      "recommendedMedicine": ["Foot arch support", "Anti-inflammatory drugs"]
+    },
+    {
+      "diseaseName": "Dental Cavities",
+      "symptoms": ["Toothache", "Sensitivity to hot or cold", "Visible holes in teeth"],
+      "causes": ["Bacterial decay"],
+      "recommendedMedicine": ["Dental fillings", "Fluoride treatments"]
+    },
+    {
+      "diseaseName": "Shingles",
+      "symptoms": ["Painful rash", "Blisters", "Itching"],
+      "causes": ["Reactivation of the varicella-zoster virus"],
+      "recommendedMedicine": ["Antiviral medications", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Bee Sting",
+      "symptoms": ["Pain", "Swelling", "Redness"],
+      "causes": ["Bee venom injection"],
+      "recommendedMedicine": ["Pain relievers", "Antihistamines"]
+    },
+    {
+      "diseaseName": "Muscle Strain",
+      "symptoms": ["Muscle pain", "Swelling", "Limited range of motion"],
+      "causes": ["Overstretching or tearing of muscles"],
+      "recommendedMedicine": ["Rest", "Ice", "Pain relievers"]
+    },
+    {
+      "diseaseName": "Motion Sickness",
+      "symptoms": ["Nausea", "Vomiting", "Dizziness"],
+      "causes": ["Sensory conflict during motion"],
+      "recommendedMedicine": ["Anti-motion sickness medications"]
+    },
+    {
+      "diseaseName": "Achilles Tendinitis",
+      "symptoms": ["Heel pain", "Swelling", "Stiffness"],
+      "causes": ["Overuse of the Achilles tendon"],
+      "recommendedMedicine": ["Rest", "Ice", "Anti-inflammatory drugs"]
+    },
+    {
+      "diseaseName": "Ringworm",
+      "symptoms": ["Red, itchy, and scaly skin", "Circular rash", "Hair loss"],
+      "causes": ["Fungal infection"],
+      "recommendedMedicine": ["Antifungal creams", "Oral antifungal medications"]
+    },
+    {
+      "diseaseName": "Headache",
+      "symptoms": ["Mild pain", "Tension in the head", "No sensitivity to light"],
+      "causes": ["Stress", "Eye strain"],
+      "recommendedMedicine": ["Acetaminophen", "Caffeine", "Relaxation techniques"]
+    },
+    {
+      "diseaseName": "Allergic Rhinitis",
+      "symptoms": ["Itchy nose", "Watery eyes", "Sneezing"],
+      "causes": ["Pollen", "Dust", "Pet dander"],
+      "recommendedMedicine": ["Antihistamines", "Nasal corticosteroids", "Decongestants"]
+    },
+    {
+      "diseaseName": "Acne",
+      "symptoms": ["Pimples", "Blackheads", "Whiteheads"],
+      "causes": ["Excess oil production", "Bacteria", "Hormonal changes"],
+      "recommendedMedicine": ["Topical retinoids", "Antibiotics", "Benzoyl peroxide"]
+    },
+    {
+      "diseaseName": "Insomnia",
+      "symptoms": ["Difficulty falling asleep", "Waking up too early", "Daytime sleepiness"],
+      "causes": ["Stress", "Anxiety", "Poor sleep habits"],
+      "recommendedMedicine": ["Sleep hygiene practices", "Melatonin", "Cognitive-behavioral therapy"]
+    },
+    {
+      "diseaseName": "Gastritis",
+      "symptoms": ["Stomach pain", "Nausea", "Loss of appetite"],
+      "causes": ["Infection", "Irritants", "Stress"],
+      "recommendedMedicine": ["Antacids", "H2 blockers", "Proton pump inhibitors"]
+    },
+    {
+      "diseaseName": "Tension Headache",
+      "symptoms": ["Mild to moderate pain", "Pressure around the head", "No sensitivity to light"],
+      "causes": ["Stress", "Muscle tension"],
+      "recommendedMedicine": ["Acetaminophen", "Ibuprofen", "Relaxation techniques"]
+    },
+    {
+      "diseaseName": "Gastroesophageal Reflux Disease (GERD)",
+      "symptoms": ["Heartburn", "Regurgitation", "Chest pain"],
+      "causes": ["Stomach acid flowing back into the esophagus"],
+      "recommendedMedicine": ["Antacids", "H2 blockers", "Proton pump inhibitors"]
+    },
+    {
+      "diseaseName": "Anxiety",
+      "symptoms": ["Excessive worrying", "Restlessness", "Muscle tension"],
+      "causes": ["Genetics", "Stressful events", "Neurochemical imbalances"],
+      "recommendedMedicine": ["Selective serotonin reuptake inhibitors (SSRIs)", "Benzodiazepines", "Therapy"]
+    },
+    {
+      "diseaseName": "Sinusitis",
+      "symptoms": ["Nasal congestion", "Facial pain", "Yellow or green nasal discharge"],
+      "causes": ["Viral infection", "Bacterial infection", "Allergies"],
+      "recommendedMedicine": ["Nasal decongestants", "Saline nasal irrigation", "Antibiotics (if bacterial)"]
+    },
+    {
+      "diseaseName": "Iron Deficiency Anemia",
+      "symptoms": ["Fatigue", "Weakness", "Pale skin"],
+      "causes": ["Inadequate iron intake", "Blood loss", "Poor absorption"],
+      "recommendedMedicine": ["Iron supplements", "Iron-rich foods", "Vitamin C (enhances iron absorption)"]
+    },
+    {
+      "diseaseName": "Urinary Incontinence",
+      "symptoms": ["Leakage of urine", "Frequent urination", "Strong urge to urinate"],
+      "causes": ["Weak pelvic muscles", "Nerve damage", "Urinary tract infections"],
+      "recommendedMedicine": ["Pelvic floor exercises", "Medications", "Surgery"]
+    },
+    {
+      "diseaseName": "Migraine",
+      "symptoms": ["Severe headache", "Nausea", "Sensitivity to light"],
+      "causes": ["Genetic factors", "Hormonal changes", "Triggers (e.g., certain foods)"],
+      "recommendedMedicine": ["Triptans", "NSAIDs", "Preventive medications"]
+    },
+    {
+      "diseaseName": "Chronic Fatigue Syndrome",
+      "symptoms": ["Persistent fatigue", "Muscle pain", "Memory difficulties"],
+      "causes": ["Unknown", "Viral infections", "Stress"],
+      "recommendedMedicine": ["Symptomatic relief", "Cognitive-behavioral therapy", "Graded exercise therapy"]
+    },
+    {
+      "diseaseName": "Osteoarthritis",
+      "symptoms": ["Joint pain", "Stiffness", "Swelling"],
+      "causes": ["Age", "Joint injury", "Obesity"],
+      "recommendedMedicine": ["Pain relievers", "NSAIDs", "Corticosteroid injections"]
+    },
+    {
+      "diseaseName": "Gout",
+      "symptoms": ["Joint pain", "Swelling", "Redness"],
+      "causes": ["High uric acid levels", "Genetics", "Dietary factors"],
+      "recommendedMedicine": ["NSAIDs", "Colchicine", "Urate-lowering medications"]
+    },
+    {
+      "diseaseName": "Ovarian Cyst",
+      "symptoms": ["Pelvic pain", "Bloating", "Irregular periods"],
+      "causes": ["Hormonal imbalances", "Functional cysts", "Endometriosis"],
+      "recommendedMedicine": ["Pain relievers", "Hormonal therapy", "Surgery"]
+    },
+    {
+      "diseaseName": "Panic Disorder",
+      "symptoms": ["Sudden and intense fear", "Rapid heartbeat", "Shortness of breath"],
+    "causes": ["Genetics", "Major life stressors", "Brain abnormalities"],
+    "recommendedMedicine": ["Selective serotonin reuptake inhibitors (SSRIs)", "Benzodiazepines", "Therapy"]
+    },
+    {
+      "diseaseName": "Cold",
+      "symptoms": ["Runny or stuffy nose", "Cough", "Sneezing"],
+      "causes": ["Viral infection", "Rhino-viruses"],
+      "recommendedMedicine": ["Rest", "Hydration", "Symptomatic relief"]
+    },
+    {
+      "diseaseName": "Psoriasis",
+      "symptoms": ["Red, scaly patches", "Itching", "Nail changes"],
+      "causes": ["Immune system dysfunction", "Genetics", "Triggers"],
+      "recommendedMedicine": ["Topical corticosteroids", "Biologics", "Phototherapy"]
+    },
+    {
+      "diseaseName": "Type 2 Diabetes",
+      "symptoms": ["Increased thirst", "Frequent urination", "Fatigue"],
+      "causes": ["Insulin resistance", "Genetics", "Obesity"],
+      "recommendedMedicine": ["Oral antidiabetic drugs", "Insulin therapy", "Lifestyle changes"]
+    }
+  ]
+}
