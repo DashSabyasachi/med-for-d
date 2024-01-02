@@ -258,6 +258,7 @@ h2{
 span{
   height: 300px;
   width: 320px;
+  padding-left:20px ;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

@@ -1,7 +1,11 @@
 import React from "react";
-
-const DiseaseResult = ({ foundDisease ,setFoundDisease,setToggle,setSearchTerm }) => {
-
+import arrow from "../image/left-arrow.png";
+const DiseaseResult = ({
+  foundDisease,
+  setFoundDisease,
+  setToggle,
+  setSearchTerm,
+}) => {
   const handleReturnToSearch = () => {
     setFoundDisease(null);
     setToggle(false);
@@ -10,9 +14,10 @@ const DiseaseResult = ({ foundDisease ,setFoundDisease,setToggle,setSearchTerm }
 
   return (
     <div className="result-container">
-       <button className="return-to-search-button" onClick={handleReturnToSearch}>
-                Return to Search
-              </button>
+      <a className="return-arrow" onClick={handleReturnToSearch}>
+        <img src={arrow} alt="btn" />
+      </a>
+      {foundDisease ? null : <p>No data found</p>}
       <strong>Disease:</strong>
       <div className="disease-name">
         <h1>{foundDisease.diseaseName}</h1>

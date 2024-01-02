@@ -45,6 +45,7 @@ const DiseaseSearch = () => {
     <div>
       <main>
         <div className="container">
+          <h1>med-for-d</h1>
           {!toggle && (
             <SearchBox
               searchTerm={searchTerm}
@@ -54,7 +55,7 @@ const DiseaseSearch = () => {
               handleSuggestionClick={handleSuggestionClick}
             />
           )}
-
+    
           {foundDisease && (
             <DiseaseResult
               foundDisease={foundDisease}
