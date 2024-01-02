@@ -17,7 +17,7 @@ const DiseaseResult = ({
       <a className="return-arrow" onClick={handleReturnToSearch}>
         <img src={arrow} alt="btn" />
       </a>
-      {foundDisease ? null : <p>No data found</p>}
+      {/* {foundDisease ? null : <p>No data found</p>} */}
       <strong>Disease:</strong>
       <div className="disease-name">
         <h1>{foundDisease.diseaseName}</h1>
