@@ -40,6 +40,12 @@ const DiseaseSearch = () => {
     setSuggestions([]);
   };
 
+  const handleReturnToSearch = () => {
+    setFoundDisease(null);
+    setToggle(false);
+    setSearchTerm("");
+  };
+
   return (
     <div>
       <main>
@@ -90,9 +96,8 @@ const DiseaseSearch = () => {
             
               {suggestions.length > 0 && (
                 <div className="suggestion-box">
-                  {suggestions.slice(0,6).map((suggestion, index) => (
+                  {suggestions.slice(0, 6).map((suggestion, index) => (
                     <div
-                    
                       key={index}
                       className="suggestion"
                       onClick={() => handleSuggestionClick(suggestion)}
@@ -107,6 +112,9 @@ const DiseaseSearch = () => {
 
           {foundDisease && (
             <div className="result-container">
+              <button className="return-to-search-button" onClick={handleReturnToSearch}>
+                Return to Search
+              </button>
               <strong>Disease:</strong>
               <div className="disease-name">
                 <h1>{foundDisease.diseaseName}</h1>

@@ -231,7 +231,7 @@ strong{
   display: flex;
   justify-content:space-around;
 }
-.symptoms-container, .cause-contaoner ,.med-container{
+.symptoms-container, .cause-container ,.med-container{
   border: 3px solid black;
   border-radius: 20px;
   height: 400px;
