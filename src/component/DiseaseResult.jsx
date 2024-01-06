@@ -1,5 +1,6 @@
 import React from "react";
 import arrow from "../image/left-arrow.png";
+import NodataFound from "./NodataFound";
 const DiseaseResult = ({
   foundDisease,
   setFoundDisease,

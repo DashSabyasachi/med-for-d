@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SearchBox from "./SearchBox";
 import DiseaseResult from "./DiseaseResult";
+import NodataFound from "./NodataFound";
 import diseaseData from "../data.json";
 
 const DiseaseSearch = () => {
@@ -8,6 +9,7 @@ const DiseaseSearch = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [foundDisease, setFoundDisease] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
+  const [searchPerformed, setSearchPerformed] = useState(false);
 
   const fetchDiseaseData = async (diseaseName) => {
     const foundDisease = diseaseData.medicinalData.find(
@@ -16,10 +18,12 @@ const DiseaseSearch = () => {
 
     console.log("foundDisease:", foundDisease);
     setFoundDisease(foundDisease);
+    setSearchPerformed(true);
   };
 
   const handleSearch = () => {
     setToggle(!toggle);
+    // setSearchPerformed(false);
     if (searchTerm.trim() !== "") {
       fetchDiseaseData(searchTerm);
     }
@@ -41,6 +45,12 @@ const DiseaseSearch = () => {
     setSuggestions([]);
   };
 
+  const handleReturnToSearch = () => {
+    setFoundDisease(null);
+    setToggle(false);
+    setSearchTerm("");
+  };
+
   return (
     <div>
       <main>
@@ -55,13 +65,17 @@ const DiseaseSearch = () => {
             />
           )}
     
-          {foundDisease && (
+          {foundDisease ? (
             <DiseaseResult
               foundDisease={foundDisease}
               setFoundDisease={setFoundDisease}
               setToggle={setToggle}
               setSearchTerm={setSearchTerm}
             />
+          ) : (
+            searchPerformed && foundDisease !== null ? (
+              <NodataFound handleReturnToSearch={handleReturnToSearch} />
+            ) : null
           )}
         </div>
       </main>
