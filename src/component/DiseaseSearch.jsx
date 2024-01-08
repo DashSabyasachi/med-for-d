@@ -23,7 +23,9 @@ const DiseaseSearch = () => {
 
   const handleSearch = () => {
     setToggle(!toggle);
-    // setSearchPerformed(false);
+    setFoundDisease(null); 
+    setSearchPerformed(false);
+    setSuggestions([]);
     if (searchTerm.trim() !== "") {
       fetchDiseaseData(searchTerm);
     }
@@ -32,13 +34,18 @@ const DiseaseSearch = () => {
   const handleInputChange = (e) => {
     const value = e.target.value;
     setSearchTerm(value);
-
-    // Filter suggestions based on the input
-    const filteredSuggestions = diseaseData.medicinalData.filter((data) =>
-      data.diseaseName.toLowerCase().includes(value.toLowerCase())
-    );
-    setSuggestions(filteredSuggestions);
+  
+    if (value.trim() === "") {
+      setSuggestions([]);  // Clear suggestions when input is empty
+    } else {
+      // Filter suggestions based on the input
+      const filteredSuggestions = diseaseData.medicinalData.filter((data) =>
+        data.diseaseName.toLowerCase().includes(value.toLowerCase())
+      );
+      setSuggestions(filteredSuggestions);
+    }
   };
+  
 
   const handleSuggestionClick = (suggestion) => {
     setSearchTerm(suggestion.diseaseName);
