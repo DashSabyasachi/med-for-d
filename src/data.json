@@ -2,7 +2,7 @@
   "medicinalData": [
     {
       "diseaseName": "Common Cold",
-      "symptoms": ["Runny nose", "Sneezing", "Coughing", "Sore throat"],
+      "symptoms": ["Runny nose","Sneezing", "Coughing", "Sore throat"],
       "causes": ["Viral infection"],
       "recommendedMedicine": ["Acetaminophen", "Ibuprofen", "Decongestants"]
     },
